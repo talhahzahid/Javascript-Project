@@ -1,0 +1,22 @@
+
+
+body{
+    background-image: url(./pexels-pixabay-531767.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#form{
+    margin-top:2%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+input{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2px;
+    text-align: center;
+}
