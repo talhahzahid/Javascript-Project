@@ -53,7 +53,7 @@
 
 // let userInput = +prompt('Enter your number')
 // let num = 2;
-// if(userInput / num == 0 ){
+// if(userInput % num == 0 ){
 //     console.log("Even Number");
 // }else{
 //     console.log("Odd Number")
@@ -96,3 +96,38 @@
 // }
 
 // Traffic Light: Write a program that checks the color of a traffic light (red, yellow, green) and logs "Stop!" for red, "Caution!" for yellow, and "Go!" for green.
+// Use toLowerCase() and toUpperCase() for string manipulation to ensure consistent comparisons.
+// let trafficLight = prompt("Enter your traffic light");
+// if(trafficLight.toLowerCase() === "red"){
+//     console.log("Stop");
+// }else if(trafficLight.toLowerCase() === "yellow"){
+//     console.log("Caution");
+// }else if(trafficLight.toLowerCase() === "green"){
+//     console.log("Go");
+// }else{
+//     console.log("Enter Correct Color")
+// }
+
+// Multiple Conditions: Write a program that takes a number and checks if it is positive, negative, or zero. Log "The number is positive.", "The number is negative.", or "The number is zero."
+
+// let  userNum = +prompt("Enter your number");
+// let num = 2;
+// if(userNum % num == 0){
+//     console.log("The number is postiove");
+// }else{
+//     console.log("The number is nagative");
+// }
+
+
+
+
+
+
+
+
+
+// Day of the Week: Create a program that takes a number (1-7) and logs the corresponding day of the week. For example, 1 for "Monday", 2 for "Tuesday", etc. Log "Invalid input." for numbers outside this range.
+
+// BMI Calculator: Write a program that calculates Body Mass Index (BMI) from weight and height. Log "Underweight", "Normal weight", "Overweight", or "Obesity" based on the calculated BMI.
+
+// Discount Eligibility: Create a program that checks if a customer is eligible for a discount based on their membership status (member or non-member) and purchase amount (greater than $100). Log "Eligible for discount." or "Not eligible for discount."
